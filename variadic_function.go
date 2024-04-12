@@ -34,7 +34,7 @@ func main(){
 	fmt.Printf("Total is %d\n",res)
 
 
-	word,word_length := longest_word("Master","encyclopedia","opotptot","givatheboyback","macquena","seriousuy")
+	word,word_length := longest_word("Master","encyclopedia","opotptot","givatheboyback","macquena","seriousuy","yakaukukukuuuuuuuueuueueueueue")
 	fmt.Printf("The longest word is %s with %d characters.",word,word_length)
 
 
