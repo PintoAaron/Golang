@@ -17,7 +17,7 @@ func sum_all(nums...int) int{
 
 
 func longest_word(words...string) (string,int){
-	temp := ""
+	temp := words[0]
 	for _,word := range words{
 		if len(word) > len(temp){
 			temp = word
